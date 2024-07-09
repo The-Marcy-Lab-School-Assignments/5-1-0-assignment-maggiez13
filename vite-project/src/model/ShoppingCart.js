@@ -19,7 +19,7 @@ class ShoppingCart {
     return [...this.#cartItems];
   }
   removeItem(id){
-    this.#cartItems.splice(this.#cartItems.findIndex((item) => item.getId() === id), 1);
+    this.#cartItems.splice(this.#cartItems.findIndex((item) => item.getUniqueId() === id), 1);
   }
   getTotal(){
     return this.#cartItems.reduce((total, item) => total + item.price, 0);

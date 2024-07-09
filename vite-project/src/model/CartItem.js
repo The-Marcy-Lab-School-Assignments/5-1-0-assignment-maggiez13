@@ -7,7 +7,7 @@ class CartItem {
     this.name = name;
     this.price = price; 
   }
-  getId() {
+  getUniqueId() {
     return this.#id;
   }
 }
