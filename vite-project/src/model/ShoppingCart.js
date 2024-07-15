@@ -1,6 +1,6 @@
 import getId from "../utils/getId";
 import CartItem from "./CartItem";
-
+/** FEEDBACK: Great job! Make sure you remove any commented out code in the future! */
 class ShoppingCart {
   id = getId();
   #cartItems = [];
